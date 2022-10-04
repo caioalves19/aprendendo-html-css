@@ -17,11 +17,32 @@ header img {
     margin: 0 auto;
 }
 
+nav{
+    position: absolute;
+    display: inline;
+    /* background-color: white; */
+    right: 0;
+    top: 0px;
+    font-size: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transition: .3s;
+    font-size: 33px;
+}
+
 h1{
     position: absolute;
-    right: 0;
+    right: 20%;
     top: 75px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .introduction{
