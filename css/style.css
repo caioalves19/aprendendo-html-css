@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
@@ -40,7 +41,9 @@ nav a:hover{
 
 h1{
     position: absolute;
-    right: 20%;
+    right: 22%;
     top: 75px;
-    font-size: 40px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
 }
