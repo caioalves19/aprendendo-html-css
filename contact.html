@@ -24,22 +24,22 @@
     <main>
         <form action="" class="form-contact">
             <label for="nome">Nome</label>
-            <input type="text" id="nome" class="input-block">
+            <input required placeholder="Caio Alves" type="text" id="nome" class="input-block">
             
             <label for="email">E-mail</label>
-            <input type="text" id="email" class="input-block">
+            <input required placeholder="seuemail@dominio.com" type="email" id="email" class="input-block">
             
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" class="input-block">
+            <input required placeholder="(00) 00000-0000" type="tel" id="telefone" class="input-block">
 
             <label for="mensagem">Mensagem</label>
             <textarea id="mensagem" cols="30" rows="10" class="input-block"></textarea>
             
             
-            <div class="preferencias-contato">
-                <p>Como prefere nosso contato?</p>
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend> 
                 <label for="radio-email">
-                    <input type="radio" name="contato" id="radio-email">
+                    <input checked type="radio" name="contato" id="radio-email">
                     E-mail
                 </label>
                 
@@ -52,21 +52,23 @@
                     <input type="radio" name="contato" id="radio-whatsapp">
                     WhatsApp
                 </label>
-            </div>
+            </fieldset>
 
-            <p>Em qual período prefere nosso contato?</p>
-            <select name="periodo" id="periodo-contato">
-                <option value="M">Manhã</option>
-                <option value="T">Tarde</option>
-                <option value="N">Noite</option>
-            </select>
+            <fieldset>
+                <legend>Em qual período prefere nosso contato?</legend>
+                <select name="periodo" id="periodo-contato">
+                    <option value="M">Manhã</option>
+                    <option value="T">Tarde</option>
+                    <option value="N">Noite</option>
+                </select>
+            </fieldset>
             
             <label for="checkbox-contact" id="checkbox">
-                <input type="checkbox" name="" id="checkbox-contact">
+                <input checked type="checkbox" name="" id="checkbox-contact">
                 Gostaria de receber nossas informações por e-mail?
             </label>
             
-            <input type="submit" value="Enviar" class="input-block">
+            <input type="submit" value="Enviar" class="input-block enviar">
         </form>
     </main>
     

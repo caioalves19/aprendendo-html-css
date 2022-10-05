@@ -3,7 +3,7 @@ main {
     margin: 40px auto;
 }
 
-.form-contact label, .form-contact p {
+.form-contact label, .form-contact legend {
     display: block;
     font-size: 25px;
     margin-bottom: 5px;
@@ -21,6 +21,19 @@ main {
     width: 50%;
 }
 
-p {
-    margin-top: 20px;
+.form-contact fieldset {
+    margin-top: 15px;
+}
+
+.enviar {
+    border-style: none;
+    border-radius: 10px;
+    background-color: burlywood;
+    font-size: 20px;
+}
+
+.enviar:hover {
+    background-color: grey;
+    color: white;
+    transition: .5s;
 }
