@@ -3,6 +3,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    background: linear-gradient(burlywood 15%, cornsilk);
+}
+
 header{
     background-color: burlywood;
     padding: 25px 0;
