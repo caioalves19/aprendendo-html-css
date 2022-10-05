@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 6 TV Series</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-contact.css">
+</head>
+<body>
+    <header>
+        <div class="wrap-header">
+            <img src="/images/logo.png" alt="">
+            <h1>Top 6 TV Series by Caio Alves</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="" class="form-contact">
+            <label for="nome">Nome</label>
+            <input required placeholder="Nome e sobrenome" type="text" id="nome" class="input-block">
+            
+            <label for="email">E-mail</label>
+            <input required placeholder="seuemail@dominio.com" type="email" id="email" class="input-block">
+            
+            <label for="telefone">Telefone</label>
+            <input required placeholder="(00) 00000-0000" type="tel" id="telefone" class="input-block">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" cols="30" rows="10" class="input-block"></textarea>
+            
+            
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend> 
+                <label for="radio-email">
+                    <input checked type="radio" name="contato" id="radio-email">
+                    E-mail
+                </label>
+                
+                <label for="radio-telefone">
+                    <input type="radio" name="contato" id="radio-telefone">
+                    Telefone
+                </label>
+                
+                <label for="radio-whatsapp">
+                    <input type="radio" name="contato" id="radio-whatsapp">
+                    WhatsApp
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Em qual período prefere nosso contato?</legend>
+                <select name="periodo" id="periodo-contato">
+                    <option value="M">Manhã</option>
+                    <option value="T">Tarde</option>
+                    <option value="N">Noite</option>
+                </select>
+            </fieldset>
+            
+            <label for="checkbox-contact" id="checkbox">
+                <input checked type="checkbox" name="" id="checkbox-contact">
+                Gostaria de receber nossas informações por e-mail?
+            </label>
+            
+            <input type="submit" value="Enviar" class="input-block enviar">
+        </form>
+    </main>
+    
+</body>
+</html>
