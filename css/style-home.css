@@ -29,6 +29,7 @@
     padding: 5% 0 0 5%;
     border: 2px black solid;
     border-radius: 30px;
+    transition: .5s;
 }
 
 .list-series li:nth-child(2n){
