@@ -23,17 +23,23 @@
     /* background-color: green; */
     box-sizing: border-box;
     display: inline-block;
-    width: 49.7%;
+    width: 47.5%;
     height: 302px;
-    margin: 0 auto 50px auto;
+    margin-bottom:50px;
     padding: 5% 0 0 5%;
     border: 2px black solid;
-    border-radius: 15px;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.list-series li:nth-child(2n){
+    margin-left: 5%;
 }
 
 .list-series li:hover{
     background-color: burlywood;
-    transition: .7s;
+    transition: .5s;
+    box-shadow: 3px 3px 40px 5px black;
 }
 
 .list-series img{
