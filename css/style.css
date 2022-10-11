@@ -1,53 +1,7 @@
 * {
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Montserrat', sans-serif;
-}
-
-body{
-    background: linear-gradient(burlywood 20%, cornsilk);
-}
-
-header{
-    background-color: burlywood;
-    padding: 25px 0;
-}
-
-header img {
-    max-height: 200px;
-}
-
-.wrap-header{
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
-}
-
-nav{
-    position: absolute;
-    display: inline;
-    /* background-color: white; */
-    right: 0;
-    top: 0px;
-    font-size: 30px;
-}
-
-nav a{
-    text-decoration: none;
-    color: black;
-    padding: 5px;
-}
-
-nav a:hover{
-    text-decoration: underline;
-    transition: .3s;
-    font-size: 33px;
-}
-
-h1{
-    position: absolute;
-    right: 22%;
-    top: 75px;
-    font-size: 35px;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: underline;
 }
