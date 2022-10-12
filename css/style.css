@@ -17,6 +17,21 @@
 
 .header h1 {
     align-self: center;
+    font-size: 1.4rem;
+}
+
+.header a{
+    color: black;
+    font-size: 1.2rem;
+    margin: 5px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.header a:hover{
+    text-decoration: underline;
+    color: whitesmoke;
+    transition: .3s;
 }
 
 .header nav {
