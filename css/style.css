@@ -2,42 +2,27 @@
     box-sizing: border-box;
 }
 
+.header {
+    padding: 50px 0;
+    background-color: #dbad6a;
+    display: grid;
+    grid-template-columns: auto 40% auto;
+    place-content: center;
+    gap: 10px;
+}
+
+.header img {
+    height: 150px;
+}
+
+.header h1 {
+    align-self: center;
+}
+
+.header nav {
+    align-self: center;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
-}
-
-.header {
-    background-color: #dbad6a;
-}
-
-.wrap-header {
-    display: flex;
-    gap: 20px;
-    width: 90%;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    padding: 40px 0;
-}
-
-.wrap-header img {
-    width: 10%;
-}
-
-.wrap-header h1 {
-    font-size: 1.4rem;
-}
-
-.wrap-header a{
-    color: black;
-    font-size: 1.2rem;
-    margin: 5px;
-    text-decoration: none;
-    transition: .3s;
-}
-
-.wrap-header a:hover{
-    text-decoration: underline;
-    color: whitesmoke;
-    transition: .3s;
 }
