@@ -43,22 +43,28 @@
 
 .list-series{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    row-gap: 40px;
 }
 
 .list-series li {
     display: flex;
-    width: 40%;
-    justify-content: space-between;
-    align-items: center;
+    width: 45%;
+    gap: 20px;
+    border: 1px solid #96897b;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .list-series img {
-    width: 180px;
-    height: 280px;
+    width: 130px;
+    height: 200px;
 }
 
 .serie-description {
     display: flex;
+    height: 100%;
     flex-direction: column;
+    justify-content: space-evenly;
 }
