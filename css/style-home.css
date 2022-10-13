@@ -3,14 +3,12 @@
 #628395 */
 
 .main {
-    width: 940px;
+    width: 60%;
     justify-content: center;
     margin: 50px auto;
 }
 
 .introduction{
-    /* width: 940px;
-    margin: 25px auto; */
     border: 2px #96897b solid;
     border-radius: 15px;
     padding: 50px;
@@ -18,7 +16,7 @@
 
 .introduction p{
     padding: 10px;
-    font-size: larger;
+    font-size: 1.2rem;
 }
 
 .list-series {
@@ -31,14 +29,14 @@
 
 .list-series li{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 150px auto;
     justify-content: start;
     border: #dbad6a 1px solid;
     grid-column: span 6;
     gap: 50px;
     transition: .5s;
     border: 2px solid #96897b;
-    border-radius: 15px;
+    border-radius: 25px;
     overflow: hidden;
 }
 
@@ -62,7 +60,7 @@
 }
 
 .list-series img {
-    max-width: 150px;
+    width: 100%;
     height: 100%;
 }
 
